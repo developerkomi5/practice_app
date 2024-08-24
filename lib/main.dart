@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:practice_app/1stApp/basic_design.dart';
-import 'package:practice_app/2ndApp/basic_design.dart';
+//import 'package:practice_app/2ndApp/basic_design.dart';
+import 'package:practice_app/3rdApp/business_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: IAmPoorApp(),
+      home: BusinessCard(),
     );
   }
 }
